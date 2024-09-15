@@ -28,7 +28,7 @@ services:
       - database
       - redis
     ports:
-      - "8000:80"
+      - "8345:80"
     volumes:
       - ./etc/pretix.cfg:/etc/pretix/pretix.cfg
       - data:/data
