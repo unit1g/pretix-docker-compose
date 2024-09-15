@@ -34,7 +34,7 @@ services:
       - data:/data
       - src:/pretix/src
     networks:
-      - backend
+      - coolify
 
 volumes:
   data:
